@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import citizenAxios from "../services/citizenAxios";
-import heroBg from "../assets/vvcmcbuildingbanner.png";
+import heroBg from "../assets/ganeshnaikbg.webp";
 // import mayorImg from "../assets/ajivir5.jpeg";
-import mayorImg from "../assets/nitinpatilsir.jpeg";
+import mayorImg from "../assets/ganeshnaiksir1.png";
 
 import logo from "../assets/panvellogo.jpg";
 
@@ -297,11 +297,11 @@ export default function Register() {
 
             <div className="vvcmc-header">
               {/* <div className="vvcmc-logo">🏛️</div> */}
-               <div className="vvcmc-logo">
+               {/* <div className="vvcmc-logo">
                 <img src={logo} alt="VVCMC Logo" style={{ width: "50px", height: "50px", borderRadius: "50%", objectFit: "cover" }} />
-              </div>
+              </div> */}
               <div className="vvcmc-text">
-                <h3>पनवेल महानगरपालिका</h3>
+                {/* <h3>पनवेल महानगरपालिका</h3> */}
                 <p>जन संवाद</p>
               </div>
             </div>
@@ -500,8 +500,8 @@ export default function Register() {
                 <div className="mayor-chair-badge">🪑</div>
               </div>
 
-              <h2 className="mayor-name">मा. श्री.नितीन पाटील</h2>
-              <p className="mayor-title">मा. महापौर, पनवेल महानगरपालिका</p>
+              <h2 className="mayor-name">मा. श्री.गणेश रामचंद्र नाईक </h2>
+              <p className="mayor-title">पालघर जिल्ह्याचे पालकमंत्री </p>
 
               <div className="mayor-progress">
                 <div className="mayor-progress-bar"></div>
